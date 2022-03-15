@@ -1,0 +1,22 @@
+{
+    "name": "markoph/rector-example-extension",
+    "description": "Rector - example extension",
+    "type": "rector-extension",
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "rector/extension-installer": true
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "rector/rector": "^0.12.17",
+        "rector/extension-installer": "^0.10.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Example\\Utils\\Rector\\": "src"
+        }
+    }
+}

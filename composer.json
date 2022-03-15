@@ -4,6 +4,14 @@
 	"keywords": ["nette"],
 	"type": "project",
 	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "repositories": [
+		{
+		"type": "path",
+		"url": "utils/*",
+		"options": {
+			"symlink": true
+		}
+	}],
 	"require": {
 		"php": ">= 7.2",
 		"nette/application": "^3.1",
@@ -23,7 +31,8 @@
 	},
 	"require-dev": {
 		"nette/tester": "^2.3",
-		"symfony/thanks": "^1"
+		"symfony/thanks": "^1",
+		"markoph/rector-example-extension": "@dev"
 	},
 	"autoload": {
 		"psr-4": {
