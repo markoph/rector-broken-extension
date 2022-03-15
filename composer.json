@@ -32,7 +32,8 @@
 	"require-dev": {
 		"nette/tester": "^2.3",
 		"symfony/thanks": "^1",
-		"markoph/rector-example-extension": "@dev"
+		"markoph/rector-example-extension": "@dev",
+		"rector/rector": "^0.12.17"
 	},
 	"autoload": {
 		"psr-4": {
